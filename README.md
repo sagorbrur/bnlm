@@ -76,7 +76,7 @@ print("sentence embedding is : ", embed)
 ```py
 from bnlm.bnlm import BengaliTokenizer
 from bnlm.bnlm import get_sentence_encoding
-from bnlm.bnlm import get_similar_sentences
+from bnlm.bnlm import get_sentence_similarity
 model_path = 'model'
 sp_model = "model/bn_spm.model"
 sentence_1 = "আমি ভাত খাই।"

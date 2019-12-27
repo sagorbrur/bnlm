@@ -1,5 +1,9 @@
 # Bengal Language Model
-Bengali language model is build with fastai's [ULMFit]() and ready for `prediction` and `classfication` task.
+[![Build Status](https://travis-ci.org/sagorbrur/bnlm.svg?branch=master)](https://travis-ci.org/sagorbrur/bnlm)
+[![Documentation Status](https://readthedocs.org/projects/bnlm/badge/?version=latest)](https://bnlm.readthedocs.io/en/latest/?badge=latest)
+[![pypi version](https://img.shields.io/pypi/v/bnlm)](https://pypi.org/project/bnlm/)
+
+Bengali language model is build with fastai's [ULMFit](https://arxiv.org/abs/1801.06146) and ready for `prediction` and `classfication` task.
 
 
 NB: 

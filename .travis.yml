@@ -20,4 +20,4 @@ install:
 
 # Run the unit test
 script:
-  - python test.py
+  - python tests.py

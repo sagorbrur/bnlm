@@ -23,8 +23,6 @@ NB:
 * Accuracy 48.26% on validation dataset
 * Perplexity: ~22.79
 
-## Training
-To train with your own corpus follow [this](https://github.com/sagorbrur/Bengali-Language-Model) repository
 
 # Features and API
 
@@ -108,4 +106,5 @@ print(sen_pred)
 ## Classification
 ```upcomming```
 
-
+# Training
+To train with your own corpus follow [this](https://github.com/sagorbrur/Bengali-Language-Model) repository

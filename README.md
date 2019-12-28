@@ -36,6 +36,11 @@ download_models()
 
 ```
 ## Predict N Words
+`predict_n_words` take three parameter as input:
+- input_sen(Your incomplete input text)
+- N(Number of word for prediction)
+- model_path(Pretrained model path)
+
 ```py
 from bnlm.bnlm import BengaliTokenizer
 from bnlm.bnlm import predict_n_words

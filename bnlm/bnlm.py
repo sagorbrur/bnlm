@@ -103,19 +103,7 @@ def get_similar_sentences(sen: str, no_of_variations: int, model_path:str, sp_mo
     new_sens = [sen for sen, _ in sen_with_sim_score]
     return new_sens[:no_of_variations]
 
-# if __name__ == "__main__":
-#     model_path = '../model'
-#     sp_model = "/home/sagor/bnlp/model/bn_spm.model"
-#     output = predict_n_words("আমি বাজারে", 3, model_path)
-#     print("Word Prediction: ", output)
-    # encoding = get_sentence_encoding("আমি ভাত খাই।", model_path, sp_model)
-    # print("sentence encoding is: ", encoding)
-    # embed = get_embedding_vectors("আমি ভাত খাই।", model_path, sp_model)
-    # print("sentence embedding is : ", embed)
-    # sim = get_sentence_similarity("আমি ভাত খাই।", "আমি ভাত খাই।", model_path, sp_model)
-    # print("similarity is: ", sim)
-    # sen_pred = get_similar_sentences("আমি ভাত খাই।", 3, model_path, sp_model)
-    # print(sen_pred)
+
 
  
 

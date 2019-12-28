@@ -9,7 +9,7 @@ Bengali language model is build with fastai's [ULMFit](https://arxiv.org/abs/180
 
 
 NB: 
-* This tool mostly followed [inltk](https://github.com/goru001/inltk)
+* **This tool mostly followed [inltk](https://github.com/goru001/inltk)**
 * We separated `Bengali` part with better evaluation results
 
 # Installation

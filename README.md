@@ -80,7 +80,6 @@ print("sentence embedding is : ", embed)
 ## Sentence Similarity
 ```py
 from bnlm.bnlm import BengaliTokenizer
-from bnlm.bnlm import get_sentence_encoding
 from bnlm.bnlm import get_sentence_similarity
 model_path = 'model'
 sp_model = "model/bn_spm.model"
@@ -94,7 +93,6 @@ print("similarity is: ", sim)
 ## Get Simillar Sentences
 ```py
 from bnlm.bnlm import BengaliTokenizer
-from bnlm.bnlm import get_embedding_vectors
 from bnlm.bnlm import get_similar_sentences
 
 model_path = 'model'

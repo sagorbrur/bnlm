@@ -29,7 +29,7 @@ def save_response_content(response, destination):
             if chunk: # filter out keep-alive new chunks
                 f.write(chunk)
 
-if __name__ == "__main__":
-    file_id = '1ZeyphXpZA2RjKZIIBF9cALacROtjJgiz'
-    destination = 'test/export.pkl'
-    download_file_from_google_drive(file_id, destination)
+# if __name__ == "__main__":
+#     file_id = '1ZeyphXpZA2RjKZIIBF9cALacROtjJgiz'
+#     destination = 'test/export.pkl'
+#     download_file_from_google_drive(file_id, destination)

@@ -86,13 +86,19 @@ sp_model = "model/bn_spm.model"
 sentence_1 = "সে খুব করে কথা বলে।"
 sentence_2 = "তার কথা খুবেই মিষ্টি।"
 sim = get_sentence_similarity(sentence_1, sentence_2, model_path, sp_model)
-print("similarity is: ", sim)
+print("Similarity is: %0.2f"%sim)
 
-# Output:  0.717997670173645
+# Output:  0.72
 
 ```
 
 ## Get Simillar Sentences
+`get_similar_sentences` take four parameter
+- input sentence
+- N(Number of sentence you want to predict)
+- model_path(Pretrained Model Path)
+- sp_model(pretrained sentencepiece model)
+
 ```py
 from bnlm.bnlm import BengaliTokenizer
 from bnlm.bnlm import get_similar_sentences

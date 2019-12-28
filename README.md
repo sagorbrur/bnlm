@@ -83,10 +83,12 @@ from bnlm.bnlm import BengaliTokenizer
 from bnlm.bnlm import get_sentence_similarity
 model_path = 'model'
 sp_model = "model/bn_spm.model"
-sentence_1 = "আমি ভাত খাই।"
-sentence_2 = "আমি ভাত খাই।"
+sentence_1 = "সে খুব করে কথা বলে।"
+sentence_2 = "তার কথা খুবেই মিষ্টি।"
 sim = get_sentence_similarity(sentence_1, sentence_2, model_path, sp_model)
 print("similarity is: ", sim)
+
+# Output:  0.717997670173645
 
 ```
 
@@ -98,10 +100,10 @@ from bnlm.bnlm import get_similar_sentences
 model_path = 'model'
 sp_model = "model/bn_spm.model"
 
-input_sentence = "আমি ভাত খাই।"
+input_sentence = "আমি বাংলায় গান গাই।"
 sen_pred = get_similar_sentences(input_sentence, 3, model_path, sp_model)
 print(sen_pred)
-
+# output: ['আমি বাংলায় গান গাই ।', 'আমি ইংরেজিতে গান গাই।', 'আমি বাংলায় গানও গাই।']
 
 ```
 

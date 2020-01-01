@@ -7,6 +7,14 @@
 
 Bengali language model is build with fastai's [ULMFit](https://arxiv.org/abs/1801.06146) and ready for `prediction` and `classfication` task.
 
+# Contents
+- [Installation](#installation)
+- [Bengali Next Word Prediction](#predict-n-words)
+- [Bengali Sentence Encoding](#get-sentence-encoding)
+- [Bengali Embedding Vectors](#get-embedding-vectors)
+- [Bengali Sentence Similarity](#sentence-similarity)
+- [Bengali Simillar Sentences](#get-simillar-sentences)
+
 
 NB: 
 * **This tool mostly followed [inltk](https://github.com/goru001/inltk)**

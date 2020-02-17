@@ -127,3 +127,6 @@ print(sen_pred)
 
 # Training
 To train with your own corpus follow [this](https://github.com/sagorbrur/Bengali-Language-Model) repository
+
+# Contributor
+[![](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/images/0)](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/links/0)[![](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/images/1)](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/links/1)[![](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/images/2)](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/links/2)[![](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/images/3)](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/links/3)[![](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/images/4)](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/links/4)[![](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/images/5)](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/links/5)[![](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/images/6)](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/links/6)[![](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/images/7)](https://sourcerer.io/fame/sagorbrur/sagorbrur/bnlm/links/7)

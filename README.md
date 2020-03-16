@@ -24,6 +24,9 @@ NB:
 
 `pip install bnlm`
 
+## Dependencies
+* use pytorch >=1.0.0 and <=1.3.0
+
 
 # Evaluation Result
 

@@ -14,6 +14,7 @@ Bengali language model is build with fastai's [ULMFit](https://arxiv.org/abs/180
 - [Bengali Embedding Vectors](#get-embedding-vectors)
 - [Bengali Sentence Similarity](#sentence-similarity)
 - [Bengali Simillar Sentences](#get-simillar-sentences)
+- [Colab Notebook](https://github.com/sagorbrur/my_colab_notebook/blob/master/bnlm/bnlm_colab_notebook.ipynb)
 
 
 NB: 
